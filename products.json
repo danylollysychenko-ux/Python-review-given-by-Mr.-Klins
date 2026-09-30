@@ -1,0 +1,45 @@
+{
+  "products": [
+    { "item": "Portable force field unit", "price": 199.99, "make": 125.99 },
+
+    { "item": "Plastic lips", "price": 3.99, "make": 0.99 },
+
+    { "item": "Inflatable head in a cloak", "price": 59.99, "make": 25.59 },
+
+    { "item": "Shoe gas mask", "price": 149.99, "make": 87.79 }
+  ],
+
+  "orders": [
+    {
+      "name": "Barbara Feldon",
+
+      "qty": [1, 0, 2, 0],
+
+      "shipping": 0
+    },
+
+    {
+      "name": "Edward Platt",
+
+      "qty": [0, 5, 1, 3],
+
+      "shipping": 13.32
+    },
+
+    {
+      "name": "Bernie Kopell",
+
+      "qty": [2, 3, 0, 2],
+
+      "shipping": 15.61
+    },
+
+    {
+      "name": "Robert Karvelas",
+
+      "qty": [1, 1, 1, 1],
+
+      "shipping": 1.87
+    }
+  ]
+}
