@@ -10,7 +10,8 @@ for i in range(len(data["products"])):
     product = data["products"][i]["item"]
     price = data["products"][i]["price"]
     make = data["products"][i]["make"]
-    profit = round(price-make, 2)
+    profit = price-make
+    print(profit)
     data_collected.append([product, price, make, profit])
 
-print(tabulate(data_collected, headers=headers))
+print(tabulate(data_collected, headers=headers, floatfmt=".2f"))
